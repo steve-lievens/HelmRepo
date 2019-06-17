@@ -3,7 +3,19 @@ entries:
   lisa-backend-nf:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-17T14:54:00.087392+02:00
+    created: 2019-06-17T15:25:24.784219+02:00
+    description: This will deploy the backend application for lisa without Apache
+      Flink. The app will listen for incoming messages on the Event Stream Topic and
+      simply post these in a PostgreSQL database.
+    digest: 62018c4afe0439381d7e783aa03aedd452074762187f8f0fe8585edf5f5292e2
+    icon: https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/icp.png
+    name: lisa-backend-nf
+    urls:
+    - lisa-backend-nf-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-06-17T15:25:24.783912+02:00
     description: This will deploy the backend application for lisa without Apache
       Flink. The app will listen for incoming messages on the Event Stream Topic and
       simply post these in a PostgreSQL database.
@@ -13,4 +25,4 @@ entries:
     urls:
     - lisa-backend-nf-0.1.5.tgz
     version: 0.1.5
-generated: 2019-06-17T14:54:00.086408+02:00
+generated: 2019-06-17T15:25:24.782571+02:00
