@@ -23,6 +23,6 @@ entries:
     icon: https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/icp.png
     name: lisa-backend-nf
     urls:
-    - lisa-backend-nf-0.1.5.tgz
+    - https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/lisa-backend-nf-0.1.5.tgz
     version: 0.1.5
 generated: 2019-06-17T15:25:24.782571+02:00
