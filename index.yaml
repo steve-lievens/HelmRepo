@@ -3,7 +3,7 @@ entries:
   lisa-backend-nf:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-17T13:44:53.261767+02:00
+    created: 2019-06-17T13:49:40.172614+02:00
     description: This will deploy the backend application for lisa without Apache
       Flink. The app will listen for incoming messages on the Event Stream Topic and
       simply post these in a PostgreSQL database.
@@ -12,4 +12,4 @@ entries:
     urls:
     - lisa-backend-nf-0.1.5.tgz
     version: 0.1.5
-generated: 2019-06-17T13:44:53.260866+02:00
+generated: 2019-06-17T13:49:40.172121+02:00
