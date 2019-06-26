@@ -3,19 +3,7 @@ entries:
   lisa-backend-nf:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.911389+02:00
-    description: This will deploy the backend application for lisa without Apache
-      Flink. The app will listen for incoming messages on the Event Stream Topic and
-      simply post these in a PostgreSQL database.
-    digest: a2c093c617c815ea724a0e2e11add5775372fb27fc8dfee60fe9028991932104
-    icon: https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/kube-mvp.png
-    name: lisa-backend-nf
-    urls:
-    - https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/lisa-backend-nf-2.0.0.tgz
-    version: 2.0.0
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-06-26T15:58:45.910817+02:00
+    created: 2019-06-26T16:44:26.586957+02:00
     description: This will deploy the backend application for lisa without Apache
       Flink. The app will listen for incoming messages on the Event Stream Topic and
       simply post these in a PostgreSQL database.
@@ -27,7 +15,7 @@ entries:
     version: 0.1.9
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.910267+02:00
+    created: 2019-06-26T16:44:26.586199+02:00
     description: This will deploy the backend application for lisa without Apache
       Flink. The app will listen for incoming messages on the Event Stream Topic and
       simply post these in a PostgreSQL database.
@@ -39,7 +27,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.909712+02:00
+    created: 2019-06-26T16:44:26.58542+02:00
     description: This will deploy the backend application for lisa without Apache
       Flink. The app will listen for incoming messages on the Event Stream Topic and
       simply post these in a PostgreSQL database.
@@ -51,7 +39,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.909156+02:00
+    created: 2019-06-26T16:44:26.584697+02:00
     description: This will deploy the backend application for lisa without Apache
       Flink. The app will listen for incoming messages on the Event Stream Topic and
       simply post these in a PostgreSQL database.
@@ -63,7 +51,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.908066+02:00
+    created: 2019-06-26T16:44:26.583939+02:00
     description: This will deploy the backend application for lisa without Apache
       Flink. The app will listen for incoming messages on the Event Stream Topic and
       simply post these in a PostgreSQL database.
@@ -76,7 +64,7 @@ entries:
   lisa-frontend:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.915789+02:00
+    created: 2019-06-26T16:44:26.592608+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System.
     digest: 69507efcfa710d9ecb5ff240bc2784c11c0ce11788bdaa317cd4cd7887a38d63
@@ -87,7 +75,7 @@ entries:
     version: 2.0.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.915199+02:00
+    created: 2019-06-26T16:44:26.591818+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System.
     digest: 97bcf180663c4f0767baa349d6d30c4b54610e2fa4f17d3d8e8128f24b0649f9
@@ -98,7 +86,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.914624+02:00
+    created: 2019-06-26T16:44:26.591055+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System.
     digest: ddb5786151098170eccce31e518f645d11735e67376273e62f05fa78d9235f66
@@ -109,7 +97,7 @@ entries:
     version: 1.8.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.914009+02:00
+    created: 2019-06-26T16:44:26.590269+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System.
     digest: ee870c8066d4482cd66f355d47f3b92b5b2d6b390ff25f5fe520e1a776b6efb2
@@ -120,7 +108,7 @@ entries:
     version: 1.8.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.9137+02:00
+    created: 2019-06-26T16:44:26.589948+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System
     digest: 0ee59491798a448500bbfcae09088805050973cd230dd63c885371e669fc8ace
@@ -131,7 +119,7 @@ entries:
     version: 1.7.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.913063+02:00
+    created: 2019-06-26T16:44:26.589178+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System
     digest: 0426bab77136c8ca4dc56e02f3647629e2a43a914bbe309c048bda27bac570e2
@@ -142,7 +130,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.912483+02:00
+    created: 2019-06-26T16:44:26.588393+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System
     digest: 97654d95007057cca666abb1b6cbbf4764838326f8da7d027ffed2a89278263a
@@ -153,7 +141,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.911929+02:00
+    created: 2019-06-26T16:44:26.587688+02:00
     description: Helm Chart providing the frontend application for Lisa Entry and
       Exit System
     digest: 0dd6149965ec542b453a2025dd5bc8726aaaca49a1059164eede037ca9a6aed6
@@ -164,29 +152,7 @@ entries:
   lisa-frontend-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.918816+02:00
-    description: This Helm chart will deploy an MCM Application of the frontend app
-      to all clusters that are labelled with Edge.
-    digest: dd5ff9bd794e7e8dbacdd7edb407ba21e89335db10544788843a061e360f99d1
-    icon: https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/kube-mvp.png
-    name: lisa-frontend-app
-    urls:
-    - https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/lisa-frontend-app-2.0.1.tgz
-    version: 2.0.1
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-06-26T15:58:45.918531+02:00
-    description: This Helm chart will deploy an MCM Application of the frontend app
-      to all clusters that are labelled with Edge.
-    digest: 2677127bfcd88697ea268daa1780369abc307c535d40376b46eeaad1ce9832bf
-    icon: https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/kube-mvp.png
-    name: lisa-frontend-app
-    urls:
-    - https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/lisa-frontend-app-2.0.0.tgz
-    version: 2.0.0
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-06-26T15:58:45.918255+02:00
+    created: 2019-06-26T16:44:26.593913+02:00
     description: This Helm chart will deploy an MCM Application of the frontend app
       to all clusters that are labelled with Edge.
     digest: 4765d46b8e3092d1611cad4709f535c23e2c9249bb4d90c38e250009c2622cde
@@ -197,7 +163,7 @@ entries:
     version: 0.8.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.917955+02:00
+    created: 2019-06-26T16:44:26.593608+02:00
     description: This Helm chart will deploy an MCM Application of the frontend app
       to all clusters that are labelled with Edge.
     digest: cf0d1a5e8beab4a384e4e6cfd9f097267ef967034d4420149dbfbc42587c225e
@@ -208,7 +174,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.916507+02:00
+    created: 2019-06-26T16:44:26.5933+02:00
     description: This Helm chart will deploy an MCM Application of the frontend app
       to all clusters that are labelled with Edge.
     digest: 58d2995068340ae27c85cb9416b82d75caac87eb7f746dda18746f87a9447888
@@ -219,7 +185,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-26T15:58:45.916153+02:00
+    created: 2019-06-26T16:44:26.592939+02:00
     description: This Helm chart will deploy an MCM Application of the frontend app
       to all clusters that are labelled with Edge.
     digest: 17c79f4435824b1a7c26b238e54cbe54291ca28fb697fce6b228cd051d7b881a
@@ -228,4 +194,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/steve-lievens/HelmRepo/master/lisa-frontend-app-0.1.0.tgz
     version: 0.1.0
-generated: 2019-06-26T15:58:45.906107+02:00
+generated: 2019-06-26T16:44:26.581676+02:00
